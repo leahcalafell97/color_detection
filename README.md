@@ -28,7 +28,7 @@ python color_detection.py -i <path of image file>
 
 It clearly identifies the color of the selected area in the image.
 
-(beatles_gif.gif)
+![image](beatles_gif.gif)
 
 ## Conclusion 
 
