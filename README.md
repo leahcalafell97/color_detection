@@ -1,25 +1,17 @@
 # Color-Detection
-Color Detection in an Image
+Colour detection is the process of detecting the name of any color. We are detecting color from image file by moving cursor on it.
 
-## Packages
-* OpenCV 
+## Requirements:
+* Python
+* Opencv
+* Pandas
 
-Wrapper package for OpenCV python bindings.
 ```bash
-pip install opencv-python
+pip install opencv-python numpy pandas
 ```
-* Pandas 
+## Run Python File
+Colors.csv – a file that contains our dataset.
 
-Powerful data structures for data analysis, time series, and statistics.
-```bash
-pip install pandas
-```
-* argparse 
-
-The argparse module makes it easy to write user friendly command line interfaces.
-```bash
-pip install argparse
-```
 ## Run Python File
 ```bash
 python color_detection.py -i <path of image file>
